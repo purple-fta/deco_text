@@ -14,7 +14,7 @@ setup(
     description='Корректирует текст согласно грамматическим нормам',
     long_description=readme(),
     long_description_content_type='text/markdown',
-    url='',  #  TODO: Add GitHub
+    url='https://github.com/purple-fta/deco_text',
     packages=find_packages(),
     install_requires=["python-dotenv", "openai"],
     classifiers=[
@@ -24,7 +24,7 @@ setup(
     ],
     keywords='text correction grammar',
     project_urls={
-        'GitHub': 'your_github'  #  TODO: Add GitHub
+        'GitHub': 'https://github.com/purple-fta/deco_text'
     },
     python_requires='>=3.6'
 )
