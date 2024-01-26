@@ -16,7 +16,7 @@ setup(
     long_description_content_type='text/markdown',
     url='',  #  TODO: Add GitHub
     packages=find_packages(),
-    install_requires=["python-dotenv=>1.0.1", "openai=>1.9.0"],
+    install_requires=["python-dotenv", "openai"],
     classifiers=[
         'Programming Language :: Python :: 3.11',
         'License :: OSI Approved :: MIT License',
