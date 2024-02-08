@@ -7,14 +7,14 @@ def readme():
 
 
 setup(
-    name='deco_text',
-    version='0.1',
+    name='lexi_craft',
+    version='0.2.2',
     author='PurpleFta',
     author_email='helloworldfirstfta@gmail.com',
     description='Корректирует текст согласно грамматическим нормам',
     long_description=readme(),
     long_description_content_type='text/markdown',
-    url='https://github.com/purple-fta/deco_text',
+    url='https://github.com/purple-fta/lexi_craft',
     packages=find_packages(),
     install_requires=["python-dotenv", "openai"],
     classifiers=[
@@ -24,7 +24,7 @@ setup(
     ],
     keywords='text correction grammar',
     project_urls={
-        'GitHub': 'https://github.com/purple-fta/deco_text'
+        'GitHub': 'https://github.com/purple-fta/lexi_craft'
     },
     python_requires='>=3.6'
 )
