@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='lexi-craft',
-    version='0.2.3',
+    version='0.2.4',
     author='PurpleFta',
     author_email='helloworldfirstfta@gmail.com',
     description='Корректирует текст согласно грамматическим нормам',
